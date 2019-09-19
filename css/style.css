@@ -1,0 +1,331 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4;
+}
+
+/* Global*/
+.container1{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+.dark{
+	padding: 15px;
+	background: #354240;
+	color: #f0f0f0;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/* Header*/
+header{
+	background: #35424a;
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #e8491d 3px solid;
+}
+
+header a{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+header #branding{
+	float: left;
+} 
+header #branding h1{
+	margin: 0;
+}
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+header .highlight{
+	color: #0000ff;
+	font-weight: bold;
+}
+header .current a{
+	color: #e8491d;
+	font-weight: bold;
+}
+header a:hover{
+	color: #cccccc;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+/*Showcase*/
+#showcase{
+	min-height: 400px;
+	background: url('../images/showcase.jpg') no-repeat 0 -400px;
+	text-align: center;
+	color: #ffffff;
+}
+#showcase h1{
+	margin-top: 100px;
+	font-size: 55px;
+	margin-bottom: 10px;
+}
+#showcase p{
+	font-size: 22px;
+}
+/*Buy Hym Buttons*/
+#hymbuttons{
+	min-height: 55px;
+	padding: 15px;
+	color: #ffffff;
+	background: #35424a;
+	/*padding-left: 350px;*/
+}
+.button_1{
+	height: 50px;
+	width: 200px;
+	background: #e82019;
+	border: none;
+	border-radius: 16px;
+	color: #ffffff;
+	font-weight: bold;
+}
+.button_2{
+	height: 50px;
+	width: 200px;
+	background: #e84990;
+	border: none;
+	border-radius: 16px;
+	color: #ffffff;
+	font-weight: bold;
+}
+.button_info{
+	height: 40px;
+	width: 150px;
+	background: #e84990;
+	border: none;
+	border-radius: 16px;
+	color: #ffffff;
+	font-weight: bold;
+}
+.button_1:hover{
+	background: #e84990;
+	border-radius: 7px;
+}
+.button_2:hover{
+	background: #e82019;
+	border-radius: 7px;
+}
+.button_info:hover{
+	border-radius: 0px;
+}
+
+/*Boxes*/
+#boxes{
+	margin-top: 20px;
+}
+#boxes .box{
+	float: left;
+	width: 22%;
+	padding: 10px;
+	text-align: center;
+}
+#boxes .box img{
+	height: 90px;
+}
+
+footer{
+	padding: 20px;
+	margin-top: 20px;
+	color: #ffffff;
+	background-color: #e8491d;
+	text-align: center;
+}
+#newsletter {
+	padding: 15px;
+	color: #ffffff;
+	background: #354240;
+}
+#newsletter h1{
+	float: left;
+}
+#newsletter form{
+	float: right;
+	margin-top: 15px;
+}
+#newsletter input[type="email"]{
+	padding: 4px;
+	height: 24px;
+	width: 250px;
+}
+.news_button{
+	height: 38px;
+	background: #e8491d;
+	border: none;
+	padding-right: 20px;
+	padding-left: 20px;
+	color: #ffffff;
+}
+/*SideBar*/
+aside#sidebar{
+	float: right;
+	width: 30%;
+	margin-top: 10px;
+}
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+	width: 90%;
+	padding: 5%;
+}
+
+/*Main_col*/
+article#main_col{
+	float: left;
+	width: 65%;
+}
+
+/*Services*/
+ul#services li{
+	list-style: none;
+	padding: 20px;
+	border: #cccccc solid 1px;
+	margin-bottom: 5px;
+	background: #e6e6e6;
+
+}
+/*Momo_desc */
+#momo_desc{
+	text-align: center;
+	background: #afbfcf;
+	color: #0000f0;
+}
+#momo_desc h1{
+	font-family: open-sans;
+	font-weight: bold;
+	font-size: 26px;
+}
+#momo_desc p{
+	font-family: raleway;
+	font-size: 18px;
+}
+p .highlight{
+	color:#e8491d;
+	font-weight: bold;
+}
+#momo_form {
+	padding: 15px;
+	background: #afbfcf;
+	color: #000000;
+}
+#momo_form input[name="_tel"]{
+	padding: 4px;
+	height: 40px;
+	width: 250px;
+	font-weight: bold;
+	background: #abcd00;
+	border: none;
+	border-radius: 15px;
+}
+#momo_form button{
+	padding: 4px;
+	height: 50px;
+	width: 180px;
+	font-weight: bold;
+	background: #00ff00;
+	border: none;
+	border-radius: 18px;
+}
+#momo_form button:hover{
+	background: #00fff0;
+}
+/*display song*/
+#take_song form{
+	padding: 25px 0 0 0;
+}
+#take_song form input[name="number"]{
+	float: none;
+	font-weight: bold;
+	height: 30px;
+	width: 180px;
+	border: none;
+	border-radius: 15px;
+	text-align: center;
+}
+#take_song form input[name="search"]{
+	border: none;
+	border-radius: 15px;
+	font-weight: bold;
+	height: 30px;
+	width: 90px;
+}
+#show_song{
+	font-family: raleway;
+}
+#show_song h2{
+	padding: 0;
+}
+/*Media Queries*/
+@media(max-width: 768px){
+	header #branding, header nav, header nav li, #newsletter h1, #newsletter form,
+	#boxes .box, article#main_col, aside#sidebar{
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+	header{
+		padding-bottom: 20px;
+	}
+	#showcase h1{
+		margin-top: 40px;
+		font-size: 24px;
+	}
+	#newsletter button{
+		/*display: block;
+		width: 100%;*/
+		margin-top: 10px;
+	}
+	#newsletter form input[type="email"]{
+		width: 100%
+		margin-bottom: 5px;
+	}
+	.button_2, .button_1{
+		display: block;
+		float: none;
+		width: 100%;
+		margin-bottom: 5px;
+	}
+	#momo_form button, #momo_form input[name="_tel"]{
+		display: block;
+		float: none;
+		width: 100%;
+		margin-bottom: 1px;
+	}
+	#momo_desc h1, p{
+		margin: 0
+	}
+}
+@media(max-width: 365px){
+	header #branding{
+		font-size: 12px;
+		max-height: 20px;
+		color: #0000ff;
+	}
+	header nav, header nav li{
+		display: inline;
+		padding: 0 1px 0 4px;
+	}
+	footer{
+		margin: 0;
+	}
+}

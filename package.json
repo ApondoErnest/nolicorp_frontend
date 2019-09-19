@@ -1,0 +1,16 @@
+{
+  "name": "login",
+  "version": "10.15.3",
+  "description": "first",
+  "main": "login.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.0",
+    "express-session": "^1.16.1",
+    "mysql": "^2.17.1"
+  }
+}
